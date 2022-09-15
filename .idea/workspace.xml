@@ -5,14 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6d0ff907-a3ae-4fb0-80bf-a5d199f6632b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Repositorios/RepositorioCandidato.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Repositorios/RepositorioRegistro.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controladores/ControladorCandidato.py" beforeDir="false" afterPath="$PROJECT_DIR$/Controladores/ControladorCandidato.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Controladores/ControladorRegistro.py" beforeDir="false" afterPath="$PROJECT_DIR$/Controladores/ControladorRegistro.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Rutas/candidato.py" beforeDir="false" afterPath="$PROJECT_DIR$/Rutas/candidato.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repositorios/RepositorioRegistro.py" beforeDir="false" afterPath="$PROJECT_DIR$/Repositorios/RepositorioRegistro.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Rutas/registro.py" beforeDir="false" afterPath="$PROJECT_DIR$/Rutas/registro.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

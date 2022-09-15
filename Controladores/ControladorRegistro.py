@@ -32,7 +32,7 @@ class ControladorRegistro():
         return elRegistro.__dict__
 
     """
-    Modificación de inscripción (estudiante y materia)
+    Modificación de Registro (candidato y mesa)
     """
 
     def update(self, id, infoRegistro, id_candidato, id_mesa):
@@ -47,12 +47,13 @@ class ControladorRegistro():
     def delete(self, id):
         return self.repositorioRegistro.delete(id)
 
-    "Obtener todos los inscritos en una materia"
+    '''
+    "Obtener todos los candidatos votados en una mesa"
 
-    def listarInscritosEnMateria(self, id_materia):
-        return self.repositorioRegistro.getListadoInscritosEnMateria(id_materia)
+    def listarCandidatoEnMesa(self, id_Mesa):
+        return self.repositorioRegistro.getListadoVotosCandidatoEnMesa(id_Mesa)
 
-    "Obtener notas mas altas por curso"
+    "Obtener lasc mas altas por curso"
 
     def notasMasAltasPorCurso(self):
         return self.repositorioRegistro.getMayorNotaPorCurso()
@@ -61,3 +62,4 @@ class ControladorRegistro():
 
     def promedioNotasEnMateria(self, id_materia):
         return self.repositorioRegistro.promedioNotasEnMateria(id_materia)
+'''

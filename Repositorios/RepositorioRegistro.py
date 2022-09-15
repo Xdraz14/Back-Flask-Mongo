@@ -3,8 +3,8 @@ from Modelos.Registro import Registro
 from bson import ObjectId
 
 class RepositorioRegistro(InterfaceRepositorio[Registro]):
-    def getListadoInscritosEnMateria(self, id_materia):
-        theQuery = {"materia.$id": ObjectId(id_materia)}
+    def getListadoVotosCandidatoEnMesa(self, id_Mesa):
+        theQuery = {"mesa.$id": ObjectId(id_Mesa)}
         return self.query(theQuery)
     def getMayorNotaPorCurso(self):
         query1={

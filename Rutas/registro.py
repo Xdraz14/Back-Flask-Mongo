@@ -33,7 +33,7 @@ def getResultado(id):
     json = controladorResultado.show(id)
     return jsonify(json)
 
-@registro.route("/inscripciones/<string:id_inscripcion>",methods=['DELETE'])
-def eliminarRegistro(id_registro):
-    json=controladorResultado.delete(id_registro)
+@registro.route("/resultado/<string:id>",methods=['DELETE'])
+def eliminarRegistro(id):
+    json=controladorResultado.delete(id)
     return jsonify(json)
