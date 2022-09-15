@@ -14,21 +14,26 @@ def getResultados():
     return jsonify(json)
 
 
-@registro.route("/resultado", methods=['POST'])
-def crearResultado():
+@registro.route("/resultado/candidato/<string:id_candidato>/mesa/<string:id_mesa>", methods=['POST'])
+def crearResultado(id_candidato, id_mesa):
     data = request.get_json()
-    json = controladorResultado.create(data)
+    json = controladorResultado.create(data, id_candidato, id_mesa)
     return jsonify(json)
 
 
-@registro.route("/resultado/<int:id>", methods=['GET'])
+@registro.route("/resultado/<string:id_resultado>/candidato/<string:id_candidato>/mesa/<string:id_mesa>", methods=['PUT'])
+def modificarResultado(id_resultado, id_candidato, id_mesa ):
+    json = controladorResultado.update(id_resultado, id_candidato, id_mesa)
+    return jsonify(json)
+
+
+@registro.route("/resultado/<string:id>", methods=['GET'])
 def getResultado(id):
+    data = request.get_json()
     json = controladorResultado.show(id)
     return jsonify(json)
 
-
-@registro.route("/resultado/<int:id>", methods=['PUT'])
-def modificarResultado(id):
-    data = request.get_json()
-    json = controladorResultado.update(id, data)
+@registro.route("/inscripciones/<string:id_inscripcion>",methods=['DELETE'])
+def eliminarRegistro(id_registro):
+    json=controladorResultado.delete(id_registro)
     return jsonify(json)

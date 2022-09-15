@@ -5,10 +5,8 @@ from waitress import serve
 from Rutas.registraduria import registraduria
 from Rutas.mesa import mesa
 from Rutas.partido import partido
-#from rutas.candidato import candidato
-#from rutas.mesa import mesa
-#from rutas.partido import partido
-#from rutas.registro import registro
+from Rutas.candidato import candidato
+from Rutas.registro import registro
 
 '''Lee el archivo para del cofig para las configuraciones del puerto'''
 app = Flask(__name__)
@@ -22,6 +20,8 @@ def loadFileConfig():
 app.register_blueprint(registraduria)
 app.register_blueprint(mesa)
 app.register_blueprint(partido)
+app.register_blueprint(candidato)
+app.register_blueprint(registro)
 
 # Metodo Main
 if __name__ == '__main__':
