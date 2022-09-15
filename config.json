@@ -1,0 +1,7 @@
+{
+  "url-backend": "127.0.0.1",
+  "port": 9999,
+  "data-db-connection": "mongodb+srv://Xdrazlocio:xerez123@cluster0.mkn4xrj.mongodb.net/jach-registro-academico?retryWrites=true&w=majority",
+  "name-db": "jach-registro-academico"
+}
+
