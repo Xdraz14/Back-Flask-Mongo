@@ -35,5 +35,5 @@ def getResultado(id):
 
 @registro.route("/resultado/<string:id>",methods=['DELETE'])
 def eliminarRegistro(id):
-    json=controladorResultado.delete(id)
+    json = controladorResultado.delete(id)
     return jsonify(json)

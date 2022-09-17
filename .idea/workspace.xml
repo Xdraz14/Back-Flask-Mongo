@@ -4,11 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d0ff907-a3ae-4fb0-80bf-a5d199f6632b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="6d0ff907-a3ae-4fb0-80bf-a5d199f6632b" name="Changes" comment="Creacion de rama jaime">
       <change beforePath="$PROJECT_DIR$/.idea/Back-Flask-Mongo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Back-Flask-Mongo.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controladores/ControladorCandidato.py" beforeDir="false" afterPath="$PROJECT_DIR$/Controladores/ControladorCandidato.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controladores/ControladorMesa.py" beforeDir="false" afterPath="$PROJECT_DIR$/Controladores/ControladorMesa.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controladores/ControladorPartido.py" beforeDir="false" afterPath="$PROJECT_DIR$/Controladores/ControladorPartido.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controladores/ControladorRegistro.py" beforeDir="false" afterPath="$PROJECT_DIR$/Controladores/ControladorRegistro.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rutas/candidato.py" beforeDir="false" afterPath="$PROJECT_DIR$/Rutas/candidato.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rutas/registro.py" beforeDir="false" afterPath="$PROJECT_DIR$/Rutas/registro.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/config.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +51,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -91,6 +98,14 @@
       <option name="presentableId" value="Default" />
       <updated>1663211865142</updated>
     </task>
+    <task id="LOCAL-00001" summary="Creacion de rama jaime">
+      <created>1663381988156</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1663381988156</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -101,10 +116,26 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="jaime" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Creacion de rama jaime" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creacion de rama jaime" />
   </component>
 </project>

@@ -1,4 +1,4 @@
-from flask import jsonify, Blueprint,request
+from flask import jsonify, Blueprint, request
 from Controladores.ControladorCandidato import ControladorCandidato
 
 miControladorCandidato = ControladorCandidato()

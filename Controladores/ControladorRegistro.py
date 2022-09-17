@@ -11,6 +11,7 @@ class ControladorRegistro():
         self.repositorioRegistro = RepositorioRegistro()
         self.repositorioCandidato = RepositorioCandidato()
         self.repositorioMesa = RepositorioMesa()
+        print("Creando Controlador Registro")
 
     def index(self):
         return self.repositorioRegistro.findAll()
