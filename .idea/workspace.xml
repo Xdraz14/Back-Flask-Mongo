@@ -5,16 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6d0ff907-a3ae-4fb0-80bf-a5d199f6632b" name="Changes" comment="Creacion de rama jaime">
-      <change beforePath="$PROJECT_DIR$/.idea/Back-Flask-Mongo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Back-Flask-Mongo.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controladores/ControladorCandidato.py" beforeDir="false" afterPath="$PROJECT_DIR$/Controladores/ControladorCandidato.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controladores/ControladorMesa.py" beforeDir="false" afterPath="$PROJECT_DIR$/Controladores/ControladorMesa.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controladores/ControladorPartido.py" beforeDir="false" afterPath="$PROJECT_DIR$/Controladores/ControladorPartido.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Controladores/ControladorRegistro.py" beforeDir="false" afterPath="$PROJECT_DIR$/Controladores/ControladorRegistro.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Rutas/candidato.py" beforeDir="false" afterPath="$PROJECT_DIR$/Rutas/candidato.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Rutas/registro.py" beforeDir="false" afterPath="$PROJECT_DIR$/Rutas/registro.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/config.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,13 +42,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\WINDOWS\Documents\Ciclo4-G3-G3\Back-Flask-Mongo\Modelos" />

@@ -38,5 +38,5 @@ def eliminarCandidato(id):
 
 @candidato.route("/candidato/<string:id>/partido/<string:id_partido>",methods=['PUT'])
 def asignarPartidoACandidato(id,id_partido):
-    json=miControladorCandidato.asignarPartido(id,id_partido)
+    json = miControladorCandidato.asignarPartido(id, id_partido)
     return jsonify(json)

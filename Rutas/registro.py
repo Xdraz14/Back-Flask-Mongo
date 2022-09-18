@@ -1,4 +1,4 @@
-from flask import jsonify, Blueprint,request
+from flask import jsonify, Blueprint, request
 from Controladores.ControladorRegistro import ControladorRegistro
 
 controladorResultado = ControladorRegistro()
@@ -36,4 +36,9 @@ def getResultado(id):
 @registro.route("/resultado/<string:id>",methods=['DELETE'])
 def eliminarRegistro(id):
     json = controladorResultado.delete(id)
+    return jsonify(json)
+
+@registro.route("/resultado/mesa/<string:id_mesa>", methods=['GET'])
+def registrosEnMesa(id_mesa):
+    json = controladorResultado.listarCandidatoEnMesa(id_mesa)
     return jsonify(json)

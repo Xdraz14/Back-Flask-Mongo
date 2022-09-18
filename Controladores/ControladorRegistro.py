@@ -48,11 +48,13 @@ class ControladorRegistro():
     def delete(self, id):
         return self.repositorioRegistro.delete(id)
 
-    '''
+
     "Obtener todos los candidatos votados en una mesa"
 
-    def listarCandidatoEnMesa(self, id_Mesa):
-        return self.repositorioRegistro.getListadoVotosCandidatoEnMesa(id_Mesa)
+    def listarCandidatoEnMesa(self, id_mesa):
+        return self.repositorioRegistro.getListadoVotosCandidatoEnMesa(id_mesa)
+
+    '''
 
     "Obtener lasc mas altas por curso"
 
