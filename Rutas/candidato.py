@@ -1,4 +1,4 @@
-from flask import jsonify, Blueprint,request
+from flask import jsonify, Blueprint, request
 from Controladores.ControladorCandidato import ControladorCandidato
 
 miControladorCandidato = ControladorCandidato()
@@ -38,5 +38,5 @@ def eliminarCandidato(id):
 
 @candidato.route("/candidato/<string:id>/partido/<string:id_partido>",methods=['PUT'])
 def asignarPartidoACandidato(id,id_partido):
-    json=miControladorCandidato.asignarPartido(id,id_partido)
+    json = miControladorCandidato.asignarPartido(id, id_partido)
     return jsonify(json)

@@ -7,6 +7,7 @@ class ControladorCandidato():
     def __init__(self):
         self.repositorioCandidato = RepositorioCandidato()
         self.repositorioPartido = RepositorioPartido()
+        print("Creando Controlador Candidato")
 
     def index(self):
         return self.repositorioCandidato.findAll()

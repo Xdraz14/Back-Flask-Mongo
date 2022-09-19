@@ -3,6 +3,7 @@ from Modelos.Mesa import Mesa
 class ControladorMesa():
     def __init__(self):
         self.repositorioMesa = RepositorioMesa()
+        print("Creando Controlador Mesa")
     def index(self):
         return self.repositorioMesa.findAll()
     def create(self,infoMesa):

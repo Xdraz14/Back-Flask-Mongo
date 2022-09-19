@@ -3,6 +3,7 @@ from Modelos.Partido import Partido
 class ControladorPartido():
     def __init__(self):
         self.repositorioPartido = RepositorioPartido()
+        print("Creando Controlador Partido")
     def index(self):
         return self.repositorioPartido.findAll()
 
@@ -22,3 +23,6 @@ class ControladorPartido():
 
     def delete(self, id):
         return self.repositorioPartido.delete(id)
+
+    def sumaVotosPartido(self):
+        return self.repositorioPartido.sumaVotosPartido()
