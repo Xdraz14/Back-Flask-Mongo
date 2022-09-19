@@ -14,10 +14,10 @@ def getResultados():
     return jsonify(json)
 
 
-@registro.route("/resultado/candidato/<string:id_candidato>/mesa/<string:id_mesa>", methods=['POST'])
-def crearResultado(id_candidato, id_mesa):
+@registro.route("/resultado/candidato/<string:id_candidato>/mesa/<string:id_mesa>/partido/<string:id_partido>", methods=['POST'])
+def crearResultado(id_candidato, id_mesa, id_partido):
     data = request.get_json()
-    json = controladorResultado.create(data, id_candidato, id_mesa)
+    json = controladorResultado.create(data, id_candidato, id_mesa, id_partido)
     return jsonify(json)
 
 
@@ -41,4 +41,23 @@ def eliminarRegistro(id):
 @registro.route("/resultado/mesa/<string:id_mesa>", methods=['GET'])
 def registrosEnMesa(id_mesa):
     json = controladorResultado.listarCandidatoEnMesa(id_mesa)
+    return jsonify(json)
+
+@registro.route("/resultado/suma/mesa", methods=['GET'])
+def getSumaVotosTotalMesa():
+    json = controladorResultado.sumaVotosEnMesa()
+    return jsonify(json)
+
+@registro.route("/resultado/suma/candidatoTotal", methods=['GET'])
+def getSumaVotosTotalCandidato():
+    json = controladorResultado.sumaVotosPorCandidatoMesas()
+    return jsonify(json)
+@registro.route("/resultado/suma/mesa/<string:id_mesa>", methods=['GET'])
+def getSumaVotosCandidatoMesaEspecifica(id_mesa):
+    json = controladorResultado.sumaVotosCandidatoMesaEspecifica(id_mesa)
+    return jsonify(json)
+
+@registro.route("/resultado/partidos/votos", methods=['GET'])
+def getSumaVotosPartido():
+    json = controladorResultado.sumaVotosPartido()
     return jsonify(json)

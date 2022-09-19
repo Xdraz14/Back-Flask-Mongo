@@ -23,3 +23,6 @@ class ControladorPartido():
 
     def delete(self, id):
         return self.repositorioPartido.delete(id)
+
+    def sumaVotosPartido(self):
+        return self.repositorioPartido.sumaVotosPartido()

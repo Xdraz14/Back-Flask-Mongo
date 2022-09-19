@@ -38,3 +38,8 @@ def modificarPartido(id):
 def eliminarPartido(id):
     json = controladorPartido.delete(id)
     return jsonify(json)
+
+@partido.route("/partido/votos", methods=['GET'])
+def getSumaVotosPartido():
+    json = controladorPartido.sumaVotosPartido()
+    return jsonify(json)

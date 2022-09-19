@@ -4,10 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d0ff907-a3ae-4fb0-80bf-a5d199f6632b" name="Changes" comment="Creacion de rama jaime">
+    <list default="true" id="6d0ff907-a3ae-4fb0-80bf-a5d199f6632b" name="Changes" comment="se craron varios crud en candidato y mesa para poder realizar pruebas en la ruta registros en mesa recien creada">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controladores/ControladorPartido.py" beforeDir="false" afterPath="$PROJECT_DIR$/Controladores/ControladorPartido.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Controladores/ControladorRegistro.py" beforeDir="false" afterPath="$PROJECT_DIR$/Controladores/ControladorRegistro.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Rutas/candidato.py" beforeDir="false" afterPath="$PROJECT_DIR$/Rutas/candidato.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repositorios/RepositorioPartido.py" beforeDir="false" afterPath="$PROJECT_DIR$/Repositorios/RepositorioPartido.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repositorios/RepositorioRegistro.py" beforeDir="false" afterPath="$PROJECT_DIR$/Repositorios/RepositorioRegistro.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rutas/partido.py" beforeDir="false" afterPath="$PROJECT_DIR$/Rutas/partido.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Rutas/registro.py" beforeDir="false" afterPath="$PROJECT_DIR$/Rutas/registro.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -99,7 +103,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663381988156</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="se craron varios crud en candidato y mesa para poder realizar pruebas en la ruta registros en mesa recien creada">
+      <created>1663465056682</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1663465056682</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -130,6 +141,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Creacion de rama jaime" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creacion de rama jaime" />
+    <MESSAGE value="se craron varios crud en candidato y mesa para poder realizar pruebas en la ruta registros en mesa recien creada" />
+    <option name="LAST_COMMIT_MESSAGE" value="se craron varios crud en candidato y mesa para poder realizar pruebas en la ruta registros en mesa recien creada" />
   </component>
 </project>
